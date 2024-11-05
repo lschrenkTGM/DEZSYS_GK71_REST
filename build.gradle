@@ -1,0 +1,27 @@
+plugins {
+	id 'org.springframework.boot' version '3.3.0'
+	id 'io.spring.dependency-management' version '1.1.5'
+	id 'java'
+}
+
+group = 'dezsys'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.fasterxml.jackson.core:jackson-databind' // Für JSON
+	implementation 'javax.xml.bind:jaxb-api:2.3.1' // Für XML
+	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3' // Für XML
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
+
+}
+
+test {
+	useJUnitPlatform()
+}
