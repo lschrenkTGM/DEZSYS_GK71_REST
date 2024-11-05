@@ -162,3 +162,17 @@ Damit das Mapping funktioniert muss folgende Annotation genommen werden:
 Bedeutet wenn im Browser folgender Link aufgerufen wird: `"http://localhost:8080/warehouse/001"` Die Annotation lässt Springboot erkennen was verlangt wird. Dadurch kann dann die Methode aufgerufen werden.
 
 ## Quellen
+
+https://spring.io/projects/spring-boot [Spring Boot, Accessed 2024-11-03]
+
+https://spring.io/guides/gs/rest-service/ [Building a RESTful Web Service, Accessed 2024-11-03]
+
+https://spring.io/guides/gs/consuming-rest/ [Consuming a RESTful Web Service, Accessed 2024-11-03]
+
+https://www.redhat.com/de/topics/api/what-is-a-rest-api [What is a REST API?, Accessed 2024-11-03]
+
+https://www.baeldung.com/spring-bean [Spring @Bean Annotation, Accessed 2024-11-03]
+
+https://howtodoinjava.com/spring-mvc/spring-webmvcconfigurer/ [Spring WebMvcConfigurer Interface, Accessed 2024-11-03]
+
+https://www.concretepage.com/spring-4/spring-4-rest-xml-response-example-with-jackson-2 [Spring 4 REST XML, Accessed 2024-11-03]
